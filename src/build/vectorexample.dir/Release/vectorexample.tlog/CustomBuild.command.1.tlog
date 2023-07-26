@@ -1,0 +1,10 @@
+^C:\USERS\YILUN\DESKTOP\S1968779\SOURCE CODE\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Yilun/Desktop/S1968779/source code" "-BC:/Users/Yilun/Desktop/S1968779/source code/build" --check-stamp-file "C:/Users/Yilun/Desktop/S1968779/source code/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

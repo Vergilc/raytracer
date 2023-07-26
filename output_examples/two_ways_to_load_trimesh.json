@@ -1,0 +1,69 @@
+{
+"nbounces":1,
+"camera":{
+    "type":"pinhole",
+    "width":800,
+    "height":800,
+    "fov":35,
+    "position": [0.0, -3.5, 2.0],
+    "lookat": [0.0, 1.0, -0.1],
+    "up": [0.0, 0.0, 0.5],
+    "samplesize":64,
+    "sampler":"jittered"
+},
+"scene":{
+    "accelerator": "bvh",
+    "backgroundcolor":[0.01, 0.01, 0.01],
+    "lightsources": [
+        {
+            "type": "pointlight",
+            "position": [2.0, 2.0, 1.5],
+            "is": [100.0, 100.0, 100.0],
+            "id": [100.0, 100.0, 100.0]
+        }
+    ],
+    "shapes":[
+    {
+        "id": "trimesh_parsed_from_ply",
+        "type": "trimesh",
+        "filename": "../meshes/mytrimesh.ply",
+        "material": {
+            "ks": 0.5,
+            "kd": 0.5,
+            "kr": 0.3,
+            "specularexponent": 5,
+            "diffusecolor": [0.2, 0.8, 0.2],
+            "tPath":"../textures/block.jpg",
+            "tWidth":804,
+            "tHeight":615
+        }
+    },
+    {
+        "id": "trimesh_from_json",
+        "type": "trimesh",
+        "vertex":5,
+        "v0": [0.8, 4.5, 0.0],
+        "v1": [1.2, 5.9, 0.0],
+        "v2": [2.6, 5.5, 0.0],
+        "v3": [2.2, 4.1, 0.0],
+        "v4": [1.7, 5.0, 1.5],
+        "face":6,
+        "f0":[0, 1, 4],
+        "f1":[1, 2, 4],
+        "f2":[2, 3, 4],
+        "f3":[0, 3, 4],
+        "f4":[0, 1, 2],
+        "f5":[0, 2, 3],
+        "material": {
+            "ks": 0.6,
+            "kd": 1.0,
+            "specularexponent": 10,
+            "diffusecolor": [1.0, 0.2, 0.2],
+            "tPath":"../textures/brick.jpg",
+            "tWidth":501,
+            "tHeight":396
+        }
+    }
+    ]
+}
+}

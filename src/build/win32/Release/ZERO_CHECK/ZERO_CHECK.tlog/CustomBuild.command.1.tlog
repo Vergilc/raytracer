@@ -1,0 +1,10 @@
+^C:\USERS\YILUN\DESKTOP\S1968779\SOURCE CODE\BUILD\CMAKEFILES\9B258B1E1D78C7B195A475E40EF91BBE\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Yilun/Desktop/S1968779/source code" "-BC:/Users/Yilun/Desktop/S1968779/source code/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/Yilun/Desktop/S1968779/source code/build/Ray Tracer.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

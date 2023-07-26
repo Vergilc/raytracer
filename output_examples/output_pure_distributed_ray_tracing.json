@@ -1,0 +1,167 @@
+{
+"nbounces":4,
+"camera":{
+    "type":"thinlens",
+    "width":800,
+    "height":800,
+    "fov":35,
+    "position": [0.0, -3.5, 2.0],
+    "lookat": [0.0, 1.0, -0.1],
+    "up": [0.0, 0.0, 0.5],
+    "focal":3.0,
+    "d":6.0,
+    "aperture":16.0,
+    "samplesize":6400,
+    "sampler":"jittered"
+},
+"scene":{
+    "accelerator": "bvh",
+    "backgroundcolor":[0.01, 0.01, 0.01],
+    "lightsources": [
+        {
+            "type": "arealight",
+            "shapeid": "myarealightshape",
+            "position": [0.0, 1.0, 1.5],
+            "is": [100.0, 100.0, 100.0],
+            "id": [100.0, 100.0, 100.0]
+        }
+    ],
+    "shapes":[
+    {
+        "type":"sphere",
+        "center": [0.0, 2.7, 0.15],
+        "radius":0.5,
+        "material":{
+            "ks":0.4,
+            "kd":0.8,
+            "specularexponent":3,
+            "diffusecolor":[0.4, 0.3, 0.4],
+            "tPath": "../textures/sky-map.jpg",
+            "tWidth": 852,
+            "tHeight": 480
+        }
+    },
+    {
+        "id": "back wall",
+        "type": "plane",
+        "v1": [-2.0, 8.0, 0.0],
+        "v2": [-2.0, 8.0, 5.0],
+        "v3": [2.0, 8.0, 5.0],
+        "v0": [2.0, 8.0, 0.0],
+        "material":{
+            "ks": 0.6,
+            "kd": 0.7,
+            "kr": 0.3,
+            "specularexponent": 10,
+            "diffusecolor": [1.0, 1.0, 1.0]
+        }
+    },
+    {
+        "id": "floor",
+        "type": "plane",
+        "v3": [-2.0, 0.0, 0.0],
+        "v0": [-2.0, 8.0, 0.0],
+        "v1": [2.0, 8.0, 0.0],
+        "v2": [2.0, 0.0, 0.0],
+        "material": {
+            "ks": 0.6,
+            "kd": 0.7,
+            "kr": 0.3,
+            "specularexponent": 10,
+            "diffusecolor": [1.0, 1.0, 1.0],
+            "tPath": "../textures/sicily.jpg",
+            "tWidth": 600,
+            "tHeight": 494
+        }
+    },
+    {
+        "id": "left wall",
+        "type": "triangle",
+        "v0": [-2.0, 8.0, 0.0],
+        "v2": [-2.0, 8.0, 5.0],
+        "v1": [-2.0, 0.0, 0.0],
+        "material": {
+            "ks": 0.6,
+            "kd": 1.0,
+            "specularexponent": 10,
+            "diffusecolor": [1.0, 0.2, 0.2],
+            "tPath":"../textures/brick.jpg",
+            "tWidth":501,
+            "tHeight":396
+        }
+    },
+    {
+        "id": "right wall",
+        "type": "triangle",
+        "v0": [2.0, 8.0, 0.0],
+        "v1": [2.0, 0.0, 0.0],
+        "v2": [2.0, 8.0, 5.0],
+        "material": {
+            "ks": 0.6,
+            "kd": 1.0,
+            "specularexponent": 10,
+            "diffusecolor": [0.2, 0.2, 1.0]
+        }
+    },
+    {
+        "id": "glassball",
+        "type":"sphere",
+        "center": [-1.0, 2.7, 0.4],
+        "radius":0.39,
+        "material":{
+            "ks":0.1,
+            "kd":0.0,
+            "kr":0.0,
+            "kt":0.99,
+            "eta": 1.5,
+            "specularexponent":5,
+            "diffusecolor":[0.7, 0.85, 0.9]
+        }
+    },
+    {
+        "id": "metalball",
+        "type":"sphere",
+        "center": [1.0, 2.7, 0.4],
+        "radius":0.39,
+        "material":{
+            "ks":0.08,
+            "kd":0.02,
+            "kr":0.90,
+            "kt":0.00,
+            "specularexponent":5,
+            "diffusecolor":[0.7, 0.85, 0.9]
+        }
+    },
+    {
+        "id": "mytrimesh",
+        "type": "trimesh",
+        "filename": "../meshes/mytrimesh.ply",
+        "material": {
+            "ks": 0.5,
+            "kd": 0.5,
+            "kr": 0.3,
+            "specularexponent": 5,
+            "diffusecolor": [0.2, 0.8, 0.2],
+            "tPath":"../textures/block.jpg",
+            "tWidth":804,
+            "tHeight":615
+        }
+    },
+    {
+        "id": "myarealightshape",
+        "type": "plane",
+        "v3": [1.2, 1.5, 2.5],
+        "v0": [1.2, 4.5, 2.5],
+        "v1": [0.8, 4.5, 2.5],
+        "v2": [0.8, 1.5, 2.5],
+        "material": {
+            "ks": 0.6,
+            "kd": 0.7,
+            "kr": 0.3,
+            "specularexponent": 10,
+            "diffusecolor": [1.0, 1.0, 1.0]
+        }
+    }
+    ]
+}
+}

@@ -1,0 +1,5 @@
+C:/Users/Yilun/Desktop/S1968779/source code/build/CMakeFiles/raytracer.dir
+C:/Users/Yilun/Desktop/S1968779/source code/build/CMakeFiles/jsonexample.dir
+C:/Users/Yilun/Desktop/S1968779/source code/build/CMakeFiles/vectorexample.dir
+C:/Users/Yilun/Desktop/S1968779/source code/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Yilun/Desktop/S1968779/source code/build/CMakeFiles/ZERO_CHECK.dir

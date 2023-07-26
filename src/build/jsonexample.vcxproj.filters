@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Yilun\Desktop\S1968779\source code\examples\jsonExample.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Yilun\Desktop\S1968779\source code\parsers\rapidjson\allocators.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Yilun\Desktop\S1968779\source code\parsers\rapidjson\cursorstreamwrapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Yilun\Desktop\S1968779\source code\parsers\rapidjson\document.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Yilun\Desktop\S1968779\source code\parsers\rapidjson\encodedstream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Yilun\Desktop\S1968779\source code\parsers\rapidjson\encodings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Yilun\Desktop\S1968779\source code\parsers\rapidjson\filereadstream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Yilun\Desktop\S1968779\source code\parsers\rapidjson\filewritestream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Yilun\Desktop\S1968779\source code\parsers\rapidjson\fwd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Yilun\Desktop\S1968779\source code\parsers\rapidjson\istreamwrapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Yilun\Desktop\S1968779\source code\parsers\rapidjson\memorybuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Yilun\Desktop\S1968779\source code\parsers\rapidjson\memorystream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Yilun\Desktop\S1968779\source code\parsers\rapidjson\ostreamwrapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Yilun\Desktop\S1968779\source code\parsers\rapidjson\pointer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Yilun\Desktop\S1968779\source code\parsers\rapidjson\prettywriter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Yilun\Desktop\S1968779\source code\parsers\rapidjson\rapidjson.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Yilun\Desktop\S1968779\source code\parsers\rapidjson\reader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Yilun\Desktop\S1968779\source code\parsers\rapidjson\schema.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Yilun\Desktop\S1968779\source code\parsers\rapidjson\stream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Yilun\Desktop\S1968779\source code\parsers\rapidjson\stringbuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Yilun\Desktop\S1968779\source code\parsers\rapidjson\writer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Yilun\Desktop\S1968779\source code\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{9B242A71-50D7-360E-BFA5-0990184DBDA2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{549DA59A-3047-3BCE-A167-91E0E1DDA076}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
